@@ -190,7 +190,7 @@ main {
 	.homeSection {
 		max-width: 700px;
 		margin: 0 auto;
-		background: #faf7c8;
+		background: #f8f6d9;
 		padding: 0.5rem;
 
 		p {
@@ -212,6 +212,32 @@ main {
 			}
 		}
 	}
-}
-.body {
+
+	.locationsSection {
+		max-width: 700px;
+		margin: 0 auto;
+		background: #f8f6d9;
+		padding: 0.5rem;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+		h2 {
+			padding: 1rem;
+		}
+
+		div {
+			max-width: 600px;
+		}
+
+		iframe {
+			justify-self: center;
+			align-self: center;
+		}
+
+		h6 {
+			padding: 0.5rem 0rem 1.5rem 1rem;
+			font-size: 0.9rem;
+		}
+	}
 }
